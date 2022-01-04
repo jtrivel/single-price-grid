@@ -1,0 +1,111 @@
+@use '../base/variables' as v ;
+@use '../base/mixins' as m ;
+
+.services {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+  &__top {
+    background-color: v.$white; 
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    @include m.desktop { 
+      padding: 5rem
+    }
+  }
+
+  &__heading {
+    font-size: 3rem;
+    color: v.$cyan;
+    font-weight: 700;
+  }
+
+  &__subheading {
+    font-size: 2rem;
+    color: v.$brightYellow;
+    font-weight: 700;
+  }
+
+  &__desc {
+    line-height: 1.6;
+    color: v.$grayBlue;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    @include m.desktop { 
+      flex-direction: row;
+    }
+  }
+
+  &__left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: v.$cyan;
+    @include m.desktop { 
+      padding: 4rem;
+      justify-content: space-around;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    color: v.$lightGray;
+    font-weight: 700;
+  }
+
+  &__price {
+    font-size: 3rem;
+    font-weight: 700;
+    color: v.$lightGray;
+  }
+
+  &__span {
+    font-weight: 400;
+    font-size: 1.5rem;
+    opacity: .7;
+  }
+
+  &__promo {
+    color: v.$lightGray;
+  }
+
+  &__btn {
+    text-align: center;
+    text-decoration: none;
+    color: v.$white;
+    padding: 1.2rem 4rem;
+    background-color: v.$brightYellow;
+    border-radius: 1rem;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  }
+
+  &__right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: v.$cyanSec;
+    @include m.desktop { 
+      padding: 4rem;
+      justify-content: space-around;
+    }
+    
+  }
+
+  &__list {
+    color: v.$lightGray;
+    font-weight: 400;
+  }
+}

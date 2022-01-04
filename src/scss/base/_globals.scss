@@ -1,0 +1,38 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: v.$lightGray;
+  font-size: 1.6rem;
+  font-family: v.$primaryFont;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  @include m.desktop {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.container {
+  max-width: 35rem;
+  width: 95%;
+  margin-inline: auto;
+  padding: 5rem 2rem;
+  @include m.desktop {
+    align-items: center;
+    justify-content: center;
+    max-width: 70rem;
+    padding: 0;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
