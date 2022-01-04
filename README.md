@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/fylo-data-storage-component-solution-with-flexbox-aa8jdoG4u)
-- Live Site URL: [Live Site URL](https://fylo-data-storage-component0001.netlify.app/)
+- Live Site URL: [Live Site URL](https://single-price-grid0001.netlify.app/)
 
 ### Built with
 - SASS

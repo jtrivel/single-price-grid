@@ -80,6 +80,7 @@ html {
 }
 
 body {
+  position: relative;
   background-color: #e5eff5;
   font-size: 1.6rem;
   font-family: "Karla", sans-serif;
@@ -216,4 +217,23 @@ ul {
 .services__list {
   color: #e5eff5;
   font-weight: 400;
+}
+
+.footer {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .footer {
+    padding: 1rem;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    font-size: 1.4rem;
+    color: #98a6bd;
+    font-weight: 700;
+  }
+  .footer__link {
+    color: rgba(24, 175, 173, 0.808);
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,20 @@
+@use '../base/variables' as v ;
+@use '../base/mixins' as m ; 
+
+.footer {
+  display: none;
+  @include m.desktop { 
+    padding: 1rem;
+    position: absolute;
+    display:block;
+    bottom: 0;
+    font-size: 1.4rem;
+    color: v.$grayBlue;
+    font-weight: 700;
+    
+    &__link {
+      color: v.$cyan;
+      text-decoration: none;
+    }
+  }
+}
