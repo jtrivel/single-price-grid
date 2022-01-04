@@ -2,10 +2,6 @@
 
 This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-# Frontend Mentor - Fylo data storage component solution
-
-This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -33,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/fylo-data-storage-component-solution-with-flexbox-aa8jdoG4u)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-solution-T_R7a53lp)
 - Live Site URL: [Live Site URL](https://single-price-grid0001.netlify.app/)
 
 ### Built with
